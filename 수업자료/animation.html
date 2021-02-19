@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <style>
+    div {
+      border: 2px solid black;
+      background-color: brown;
+      width: 100px;
+      height: 100px;
+      display: inline-block;
+      animation: move, color-change;
+      animation-duration: 3s;
+      /* 애니메이션 적용하고 그상태로 끝내려면 */
+      animation-fill-mode: forwards;
+
+    }
+    @keyframes move {
+      0% {
+        margin-left: 0px;
+      }
+      100% {
+        margin-left: 200px;
+      }
+    }
+    @keyframes color-change {
+      from {
+        background-color: brown;
+      }
+      to {
+        background-color: red;
+      }
+    }
+    @keyframes 
+
+  </style>
+  <div></div>
+</body>
+</html>

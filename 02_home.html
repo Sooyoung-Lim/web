@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="01_nav_footer.css">
+  <link rel="stylesheet" href="02_home.css">
+  <title>Home</title>
+</head>
+<body>
+
+  <!-- 01_nav_footer.html -->
+  <!-- 01_nav_footer 에서 완성한 Navigation bar 코드를 붙여넣어 주세요. -->
+
+  <!-- 02_home.html -->
+  <header>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="2000">
+          <img src="images/header1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Daily Top10</h2>
+            <p>오늘 하루동안 가장 사랑받은 영화 10편입니다.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="images/header2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Weekly Top10</h2>
+            <p>한주간 가장 사랑받은 영화 10편입니다.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="images/header3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Monthly 10~20</h2>
+            <p>2월에 가장 많이 사랑받은 영화 10편입니다.</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>
+  </header>
+
+  <h1 class="d-flex justify-content-center align-items-center p-4 pb-0">Boxoffice</h1>
+
+  <section>
+    <article class="pb-4">
+      <div class="row justify-content-center">
+        <div class="card col-12 col-md-6 col-lg-4 col-lg-3 m-4">
+          <a href="#">
+            <img src="images/movie1.jpg" class="card-img-top" alt="...">
+          </a>
+          <div class="card-body">
+            <h2 class="card-text text-center fw-bold ">Breaking Bad<br></h2>
+            <p>가족을 위해 마약 제조를 하는 화학선생님의 이야기를 다룬 드라마</p>
+            <a href="#" class="btn btn-danger d-flex justify-content-center">Go Netflix</a>
+          </div>
+        </div>
+        <div class="card col-12 col-sm-6 col-md-4 col-lg-3 m-4">
+          <a href="#">
+            <img src="images/movie2.jpg" class="card-img-top" alt="...">
+          </a>
+          <div class="card-body">
+            <h2 class="card-text text-center fw-bold">movie title<br></h2>
+            <p>어쩌구 저쩌구</p>
+            <a href="#" class="btn btn-success d-flex justify-content-center">Go Naver Movie</a>
+          </div>
+        </div>
+        <div class="card col-12 col-sm-6 col-md-4 col-lg-3 m-4">
+          <a href="#">
+            <img src="images/movie3.jpg" class="card-img-top" alt="...">
+          </a>
+          <div class="card-body">
+            <h2 class="card-text text-center fw-bold">Insurgent<br></h2>
+            <p>상상의 경계가 무너진다!
+               마침내 밝혀지는 거대한 비밀!
+               자유를 위한 반란, 시스템을 파괴하라!</p>
+          </div>
+        </div>
+        <div class="card col-12 col-sm-6 col-md-4 col-lg-3 m-4">
+          <a href="#">
+            <img src="images/movie4.jpg" class="card-img-top" alt="...">
+          </a>
+          <div class="card-body">
+            <h2 class="card-text text-center fw-bold">Fight Club<br></h2>
+            <p>당신이 알고 있는 모든 것은 허구다!
+              믿어왔던 상식과 규칙에 통렬한 카운터를 날리는 스타일리시 액션 무비!</p>
+          </div>
+        </div>
+        <div class="card col-12 col-sm-6 col-md-4 col-lg-3 m-4">
+          <a href="#">
+            <img src="images/movie5.jpg" class="card-img-top" alt="...">
+          </a>
+          <div class="card-body">
+            <h2 class="card-text text-center fw-bold">LEON<br></h2>
+            <p>한 손엔 우유 2팩이 든 가방, 다른 한 손엔 화분을 들고 뿌리 없이 떠도는 킬러 레옹은
+              어느 날 옆집 소녀 마틸다의 일가족이 몰살 당하는 것을 목격한다.</p>
+          </div>
+        </div>
+        <div class="card col-12 col-sm-6 col-md-4 col-lg-3 m-4">
+          <a href="#">
+            <img src="images/movie6.jpg" class="card-img-top" alt="...">
+          </a>
+          <div class="card-body">
+            <h2 class="card-text text-center fw-bold">Joker<br></h2>
+            <p>“내 인생이 비극인줄 알았는데, 코미디였어” 이제껏 본 적 없는 진짜 ‘조커’를 만나라!</p>
+          </div>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- 01_nav_footer.html -->
+  <!-- 01_nav_footer 에서 완성한 Footer 코드를 붙여넣어 주세요. -->
+  <footer class="d-flex fixed-bottom justify-content-center align-items-center bg-success text-white">
+    <p class="mb-0 d-flex align-items-center" style="height: 30px;">Web-bootstrap PJT by Sooyoung-Lim</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>
